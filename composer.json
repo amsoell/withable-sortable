@@ -1,0 +1,39 @@
+{
+    "name": "amsoell/withable-sortable",
+    "description": "A Laravel package to add eager loading and sorting to your API endpoints",
+    "keywords": [
+        "amsoell",
+        "withable-sortable",
+        "laravel"
+    ],
+    "homepage": "https://github.com/amsoell/withable-sortable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andy Soell",
+            "email": "andy@teamsoell.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/http": "^8.0|^9.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amsoell\\WithableSortable\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amsoell\\WithableSortable\\WithableSortableServiceProvider"
+            ]
+        }
+    }
+}
