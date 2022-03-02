@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel withable-sortable
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/amsoell/withable-sortable.svg?style=flat-square)](https://packagist.org/packages/amsoell/withable-sortable)
 [![Total Downloads](https://img.shields.io/packagist/dt/amsoell/withable-sortable.svg?style=flat-square)](https://packagist.org/packages/amsoell/withable-sortable)
